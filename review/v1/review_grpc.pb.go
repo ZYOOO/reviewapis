@@ -31,6 +31,8 @@ const (
 // ReviewClient is the client API for Review service.
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
+//
+// 定义评价服务
 type ReviewClient interface {
 	// C端创建评价
 	CreateReview(ctx context.Context, in *CreateReviewRequest, opts ...grpc.CallOption) (*CreateReviewReply, error)
@@ -129,6 +131,8 @@ func (c *reviewClient) ListReviewByUserID(ctx context.Context, in *ListReviewByU
 // ReviewServer is the server API for Review service.
 // All implementations must embed UnimplementedReviewServer
 // for forward compatibility.
+//
+// 定义评价服务
 type ReviewServer interface {
 	// C端创建评价
 	CreateReview(context.Context, *CreateReviewRequest) (*CreateReviewReply, error)
