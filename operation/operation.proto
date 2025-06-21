@@ -3,7 +3,7 @@ syntax = "proto3";
 package api.operation.v1;
 
 import "google/api/annotations.proto";
-import "validate/validate.proto";
+import "third_party/validate/validate.proto";
 
 option go_package = "review-o/api/operation/v1;v1";
 option java_multiple_files = true;
