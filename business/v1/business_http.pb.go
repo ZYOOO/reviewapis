@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-http v2.8.4
 // - protoc             v4.25.3
-// source: api/business/v1/business.proto
+// source: business/v1/business.proto
 
 package v1
 

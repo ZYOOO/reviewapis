@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-http v2.8.4
 // - protoc             v4.25.3
-// source: api/operation/operation.proto
+// source: operation/v1/operation.proto
 
 package v1
 
